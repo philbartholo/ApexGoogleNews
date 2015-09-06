@@ -1,7 +1,17 @@
 # ApexGoogleNews
 ApexGoogleNews
 
-This is the code corresponding to Youtube video XXX showing how to add a link to the Account page layout that will display a page showing Google News for that company. The implementation uses a Visualforce page, and Apex custom controller, and the Google news API.
+This is the code corresponding to Youtube video at http://youtu.be/tvuUu2rMHx4  showing how to add a link to the Account page layout that will display a page showing Google News for that company. The implementation uses a Visualforce page, and Apex custom controller, and the Google news API.
+
+I created this small demo while exploring the features of Salesforce and Force.com.  I welcome comments on any feedback on missing steps, alternative suggestions, suggested changes, etc.  All the code and development steps are documented at https://github.com/philbartholo/ApexGoogleNews .  The topics I tried to cover are:
+
+- How to create a Visualforce page
+- How to create an Apex controller extension
+- How to create a Visualforce page
+- How to call a  REST service with APEX http callout
+- How to parse  JSON with APEX JSONParser
+- How to configure a remote site with Remote Site Settings
+- How to update the standard Salesforce Account page layout
 
 Here are the step by step instructions:
 
