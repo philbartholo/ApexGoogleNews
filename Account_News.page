@@ -1,0 +1,16 @@
+<apex:page standardController="Account" extensions="AccountNewsControllerExtension">
+  <h2>Account News</h2>
+  
+  <P>
+  Here are the latest company news headlines for : 
+<apex:outputLink value="/{!Account.id}">
+            <apex:outputText value="{!Account.Name}"/>
+</apex:outputLink>  
+  </P>
+  <apex:repeat var="thisStory" value="{!NewsStories}">
+  
+      <P><apex:outputText value="{!thisStory}" escape="false" /></P>
+  
+  </apex:repeat>
+  
+</apex:page>
